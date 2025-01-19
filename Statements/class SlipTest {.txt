@@ -1,0 +1,10 @@
+class SlipTest {
+
+public static void main( Strings [] args ) 
+{
+    		int a12 = 12;
+		System.out.println(a12);
+
+}
+}
+
