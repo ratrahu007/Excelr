@@ -1,7 +1,7 @@
 import java.util.*;
 class VariableArgumentlength {
 
-	void add(int... a,int b)
+	void add(int... a)
 	{
 		System.out.println(Arrays.toString(a));
 		System.out.println(b);
