@@ -1,13 +1,12 @@
 class Emp
 {
-	Emp()
-	{
-		this(7);
-		System.out.println("HCL");
-	}
 	Emp(int x)
 	{
-		this();
+		System.out.println("HCL");
+	}
+	Emp()
+	{
+		this(8);
 		System.out.println("Wipro");
 	}
 }
@@ -20,7 +19,7 @@ class Chaning extends Emp
 	}
 	Chaning(int x)
 	{
-		super();
+		super()
 		System.out.println("zohO");
 	}
 	public static void main( String [] args )
