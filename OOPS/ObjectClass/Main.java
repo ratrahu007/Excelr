@@ -7,7 +7,10 @@ class Car {
         this.speed = speed;
     }
 
-
+    @Override
+    public String toString() {
+        return "Car{brand='" + brand + "', speed=" + speed + " km/h}";
+    }
 }
 
 public class Main {
