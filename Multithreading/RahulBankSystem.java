@@ -22,13 +22,13 @@ class BankAccount {
         System.out.println(Thread.currentThread().getName() + " withdrew " + amount + " | New Balance: " + balance);
     }
 
-    // Corrected method placement
+
     public synchronized int getBalance() {
         return balance;
     }
 }
 
-// Transaction Threads
+
 class DepositThread extends Thread {
     private BankAccount account;
     private Random random = new Random();
@@ -71,7 +71,7 @@ class WithdrawThread extends Thread {
     }
 }
 
-// Notification Daemon Thread
+
 class NotificationDaemon extends Thread {
     private BankAccount account;
 
