@@ -22,3 +22,4 @@ class MaxValue
 
 }
 }
+//Using min and max() method we can get maximum and minimum value from the List 

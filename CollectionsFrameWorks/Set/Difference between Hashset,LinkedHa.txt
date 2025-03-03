@@ -1,0 +1,8 @@
+Difference between Hashset,LinkedHashSet,TreeSet
+
+
+HashSet =: Hashset does't follows insertion order ,it allow only one null value, doen't allow duplicate value
+
+LinkedHashSet=: it follows insertion order , doen't allow duplicate value
+
+TreeSet=: Automatically sort data in ascending order,it follows insertion order

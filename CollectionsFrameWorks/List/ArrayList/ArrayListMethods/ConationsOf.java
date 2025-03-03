@@ -18,3 +18,4 @@ class ConationsOf
 		System.out.println(b1);
 	}
 }
+//Contains() method check a element is present inm list or not if present return true either false

@@ -1,0 +1,12 @@
+Differnece between Arraylist,Linkedlist,Vector, stack
+
+Arraylist :- ArrayList used to data fetching and reterival , not thread safemeans not synchronized,initial capacity 10.
+
+LinkedList:- Used to insertion and deletion ,not thread safe , capcity is
+
+Vector :- Not thread safe , not synchronized
+
+Stack :- Not thread safe , own method ( Push, peek,pop)
+
+
+//all the methods are applicable to all list and ll collections classes

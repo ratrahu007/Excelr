@@ -23,3 +23,4 @@ class SortAnddesort
 		System.out.println(a1);
 	}
 }
+// Using this method we can sort the array in asecending and descending

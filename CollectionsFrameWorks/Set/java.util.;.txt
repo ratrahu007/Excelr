@@ -1,0 +1,15 @@
+java.util.*;
+class QueueEg
+{
+	@SuppressWarnings("unchecked")
+	public static void main(String [] args)
+	{
+		PriorityQueue pq= new PriorityQueue();
+		pq.offer(97);
+		pq.offer("suraj");
+		pq.offer(69.0f);
+		pq.offer(true);
+		System.out.println(pq);
+
+	}
+}
